@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  font-family: sans-serif;
+  background-image: url('space.jpg'); /* Ensure this file exists in the project folder */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+#controls {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: rgba(0, 0, 50, 0.6);
+  padding: 12px;
+  border-radius: 8px;
+  z-index: 10;
+}
+
+label {
+  display: block;
+  margin-top: 6px;
+  font-size: 14px;
+}
+
+input[type="range"] {
+  width: 100px;
+}
+
+.emoji-label {
+  font-size: 22px;
+  margin-right: 4px;
+}
